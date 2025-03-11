@@ -1,0 +1,12 @@
+main{
+    border: 3px solid black;
+    display: flow-root;
+}
+#dog1{
+    float: left;
+    margin: 10px;
+}
+#dog2{
+    float:right;
+    margin: 10px;
+}

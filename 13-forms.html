@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Practice</title>
+</head>
+<body>
+    <!--FORM-->
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+        <!--USERNAME-->
+        <label for="username">Username:</label>
+        <input type="text" id="username" required placeholder="LarryDavid"><br>
+
+        <!--PASSWORD-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" required minlength="8"><br>
+
+        <!--EMAIL-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="example@gmail.com"><br>
+
+        <!--PHONE-NUMBER-->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <!--BIRTH-DATE-->
+        <label for="bday">Birth Date:</label>
+        <input type="date" id="bday" required><br>
+
+        <!--QUANTITY-->
+        <label for="number">Quantity:</label>
+        <input type="number" id="number" required value="1" min="1" max="10"><br>
+
+        <!--TITLE(SEX)-->
+        <label for="title">Title:</label>
+        
+        <label for="mr">Mr.</label>
+        <input type="radio" name="title" id="mr">
+        <label for="ms">Ms.</label>
+        <input type="radio" name="title" id="ms"><br>
+        
+        <!--PAYMENT-METHOD-->
+        <label for="payment">Payment Methods:</label>
+        <select name="" id="payment">
+            <option value="visa card">Visa Card</option>
+            <option value="master card">Master Card</option>
+            <option value="gift card">Gift Card</option>
+        </select><br>
+
+        <!--SUBSCRIBE-->
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <!--COMMENT-->
+        <label for="comment">Comment:</label>
+        <textarea name="" id="comment"></textarea><br>
+
+        <!--FILE-->
+        <label for="file">File:</label>
+        <input type="file" id="file" accept="image/pnj , image/jpeg">
+
+        <!--SUBMIT & RESET-->
+        <hr><br>
+        <input type="submit">
+        <br><br>
+        <input type="reset">
+
+    </form>
+    
+</body>
+</html>

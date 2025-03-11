@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+#b1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 40px;
+    float: left;
+    background-color: aqua;
+
+
+
+    
+}
+#b2{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(182, 22, 22);
+    font-size: 40px;
+    float: left;
+    background-color: yellow;
+}
+.b{
+    min-width: 50%;
+}

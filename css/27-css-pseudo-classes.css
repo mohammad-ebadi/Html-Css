@@ -1,0 +1,30 @@
+button:hover{
+    color: cyan;
+    background-color: blueviolet;
+    font-size: 1.2em;
+}
+button:active{
+    color: yellow;
+    background-color: brown;
+}
+p{
+    font-size: 15px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+p:hover{
+    background-color:yellow;
+}
+p:not(:hover){
+    background-color: gray;
+}
+#d1 h3{
+    background-color: cyan;
+    display: none;
+
+}
+#d1:hover h3{
+    display: block;
+
+}
+

@@ -1,0 +1,6 @@
+#combinator{
+    border: 3px solid;
+}
+#combinator ~p{
+    background-color: yellow;
+}

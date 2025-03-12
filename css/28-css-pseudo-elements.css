@@ -1,0 +1,31 @@
+body h1::first-letter{
+    font-size: 2.5em;
+    font-style: italic;
+    color: cyan;
+    background-color: purple;
+}
+pre::first-letter{
+    font-size: 2em;
+}
+pre::first-line{
+    background-color: yellow;
+}
+pre::selection{
+    color: rgb(100, 230, 100);
+    background-color: rgb(69, 66, 66);
+}
+#dog::after{
+    content: "🐶";
+}
+#cat::after{
+    content: "😺";
+}
+#rat::after{
+    content: "🐀";
+}
+li::before{
+    content: "✅";
+}
+li::marker{
+    content: "✅";
+}

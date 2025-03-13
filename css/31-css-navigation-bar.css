@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: cyan;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px
+}
+nav ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+   
+}
+nav a:hover{
+    background-color: green;
+}
+main{
+    margin: 5px;
+}
+nav li{
+    float: left;
+}

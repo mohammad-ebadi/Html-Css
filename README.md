@@ -1,3 +1,3 @@
 # Html-Css
-This repo is for practicing purposes
+This repo is for practicing purposes.
 
